@@ -1,0 +1,316 @@
+﻿<Window x:Class="HOTEL_PROJECT_WPF.frontend"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HOTEL_PROJECT_WPF"
+        mc:Ignorable="d"
+        Title="HOTEL SYSTEM" Height="815" Width="1215" Background="Black" Icon="/3.jpeg" WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="441*"/>
+            <ColumnDefinition Width="96*"/>
+            <ColumnDefinition Width="175*"/>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="238*"/>
+            <ColumnDefinition Width="102*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"></RowDefinition>
+            <RowDefinition Height=".9*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="__" Padding="10" Grid.Row="0" FontSize="40" Grid.ColumnSpan="7" Margin="0,0,0,719" Grid.RowSpan="2" FontWeight="Bold" FontFamily="Felix Titling" Background="Black" Foreground="White">HOTEL Sysytem
+        </Label>
+
+        <TabControl Grid.Row="1" Margin="5,5,5,5" TabStripPlacement="Top"  Grid.ColumnSpan="7" FontSize="20" BorderBrush="Black" Foreground="#FF060606">
+            <TabControl.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </LinearGradientBrush>
+            </TabControl.OpacityMask>
+            <TabControl.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </LinearGradientBrush>
+            </TabControl.Background>
+
+
+            <TabItem Header="Reservation" FontSize="18" Padding="15" Foreground="#FFFF1B1B" Background="Black" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="192*"/>
+                        <ColumnDefinition Width="32*"/>
+                        <ColumnDefinition Width="14*"/>
+                        <ColumnDefinition Width="961*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.ColumnSpan="4">
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF7F9A7A" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Label AutomationProperties.Name="Fname" FontWeight="Bold" Margin="82,0,0,0"></Label>
+                        <TextBox x:Name="FnameTextBox" HorizontalAlignment="Left" Margin="38,30,0,0" TextWrapping="Wrap" Text="Fname" VerticalAlignment="Top" Width="155" Height="50" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" GotFocus="Fname_GotFocus" AutomationProperties.IsRequiredForForm="True" />
+                        <TextBox x:Name="LnameTextBox" HorizontalAlignment="Left" Margin="203,30,0,0" TextWrapping="Wrap" Text="Lname" VerticalAlignment="Top" Width="159" Height="50" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" GotFocus="Lname_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <Label Content="Birthday" HorizontalAlignment="Left" Margin="30,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Foreground="White"/>
+                        <ComboBox x:Name="monthComboBox" Margin="93,130,1005,457" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="15" FontWeight="Bold" BorderBrush="Black" AutomationProperties.IsRequiredForForm="True" >
+                        </ComboBox>
+                        <Label x:Name="Month" Content="Month:" HorizontalAlignment="Left" Margin="28,121,0,0" VerticalAlignment="Top" Foreground="White"/>
+                        <ComboBox x:Name="DayComboBox" Margin="224,130,901,457" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="15" FontWeight="Bold" BorderBrush="#FFF4F4F4" AutomationProperties.IsRequiredForForm="True" />
+                        <Label x:Name="Month_Copy" Content="Day:" HorizontalAlignment="Left" Margin="183,120,0,0" VerticalAlignment="Top" Foreground="White"/>
+                        <TextBox x:Name="YearTextBox" TextWrapping="Wrap" Text="Year" Margin="298,130,826,457" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <Label Content="Gender" HorizontalAlignment="Left" Margin="32,181,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Foreground="White"/>
+                        <ComboBox x:Name="GenderComboBox" Margin="43,213,826,382" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" AutomationProperties.IsRequiredForForm="True" />
+                        <Label Content="Phone number" HorizontalAlignment="Left" Margin="35,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Foreground="White"/>
+                        <TextBox x:Name="PhoneTextBox" TextWrapping="Wrap" Text="(999)- 999-999" Margin="43,304,821,292" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <Label Content="Email adress" HorizontalAlignment="Left" Margin="35,356,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Foreground="White"/>
+                        <TextBox x:Name="emailTextBox" TextWrapping="Wrap" Text="xyz@gmail.com" Margin="43,390,821,197" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <TextBox x:Name="StreetTextBox" TextWrapping="Wrap" Text="Street Adress" Margin="43,455,821,142" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <TextBox x:Name="suiteTextBox" TextWrapping="Wrap" Text="Apt./ suite" Margin="43,515,991,82" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <TextBox x:Name="cityTextBox" TextWrapping="Wrap" Text="City" Margin="218,515,821,82" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <TextBox x:Name="zipTextBox" TextWrapping="Wrap" Text="Zip Code" Margin="218,580,821,12" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}" RenderTransformOrigin="-0.286,0.478" GotFocus="TextBox_GotFocus" AutomationProperties.IsRequiredForForm="True"/>
+                        <ComboBox x:Name="StateComboBox" Margin="43,580,991,12" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" DropDownClosed="StateComboBox_DropDownClosed" AutomationProperties.IsRequiredForForm="True" />
+                        <Label x:Name="Statelabel" Content="State" HorizontalAlignment="Left" Margin="43,580,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071"/>
+                    </Grid>
+
+
+
+
+                    <Label Content="Your Choises" HorizontalAlignment="Left" Margin="186,5,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <ComboBox x:Name="GuestsComboBox" Margin="191,38,600,557" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" DropDownOpened="GuestsComboBox_DropDownOpened" Grid.Column="3" AutomationProperties.IsRequiredForForm="True" />
+                    <ComboBox x:Name="RoomTypeComboBox" Margin="366,38,425,557" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" DropDownOpened="RoomTypeComboBox_DropDownOpened" Grid.Column="3" AutomationProperties.IsRequiredForForm="True" />
+                    <Label x:Name="No_of_Guests_label" Content="No. of Guests" HorizontalAlignment="Left" Margin="191,31,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" Grid.Column="3"/>
+                    <Label x:Name="Room_Type_label" Content="Room Type" HorizontalAlignment="Left" Margin="364,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" Grid.Column="3"/>
+                    <ComboBox x:Name="FloorComboBox" Margin="191,130,600,457" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" DropDownOpened="FloorComboBox_DropDownOpened" Grid.Column="3" AutomationProperties.IsRequiredForForm="True" />
+                    <ComboBox x:Name="RoomNumberTypeComboBox" Margin="366,130,425,457" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" DropDownOpened="RoomNumberTypeComboBox_DropDownOpened" Grid.Column="3" AutomationProperties.IsRequiredForForm="True" />
+                    <Label x:Name="Floor_Label" Content="Floor" HorizontalAlignment="Left" Margin="194,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" Grid.Column="3"/>
+                    <Label x:Name="Room_Number_label" Content="Room Number" HorizontalAlignment="Left" Margin="367,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" Grid.Column="3"/>
+                    <Label Content="Entry [Date]" HorizontalAlignment="Left" Margin="188,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <DatePicker x:Name="EntryDate" Margin="191,215,420,377" Grid.Column="3" AutomationProperties.IsRequiredForForm="True">
+                        <DatePicker.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF62C016" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DatePicker.Background>
+                    </DatePicker>
+                    <Label Content="Name" HorizontalAlignment="Left" Margin="33,-4,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Foreground="White"/>
+                    <Label Content="Departure [Date]" HorizontalAlignment="Left" Margin="188,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <DatePicker x:Name="DepartureDate" Margin="191,300,420,292" Grid.Column="3" AutomationProperties.IsRequiredForForm="True">
+                        <DatePicker.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF62C016" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DatePicker.Background>
+                    </DatePicker>
+                    <Button x:Name="FoodMenuButton" Content="Food and Menu" Margin="191,378,420,209" Foreground="White" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="Button_Click">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF6EB140" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <CheckBox x:Name="CheckIn" Content="Check in ?" Margin="191,455,520,152" FontSize="14" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <CheckBox x:Name="SMS" Content="Send sms ?" Margin="433,453,323,152" FontSize="14" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <CheckBox x:Name="FoodSupply" Content="Food supply ?" Margin="303,456,523,141" FontSize="14" FontWeight="Bold" Grid.Column="3" Foreground="White"/>
+                    <Button x:Name="BillButton" Content="finalize bill" Margin="196,493,415,94" Foreground="White" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="BillButton_Click">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF6EB140" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+
+
+                    <ComboBox x:Name="ReservationComboBox" Margin="604,38,27,557" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="14" FontWeight="Bold" BorderBrush="Black" Grid.Column="3" DropDownOpened="ReservationComboBox_DropDownOpened" DropDownClosed="ReservationComboBox_DropDownClosed_1"  />
+                    <Label x:Name="Reservationlabel" Content="Reservation" HorizontalAlignment="Left" Margin="610,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.866,-2.071" Grid.Column="3"/>
+                    <Button x:Name="UpdateBtn" Content="Update" Margin="594,300,17,287" Foreground="White" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" MouseMove="UpdateBtn_MouseMove" Click="UpdateBtn_Click_1">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#006EB140" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="DeleteButton" Content="Delete" Margin="594,390,17,197" Foreground="#FFFF0909" BorderBrush="#FFF30000" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="DeleteButton_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="Black" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                    </Button>
+                    <Button x:Name="EditButton" Content="Edit Existing Reservation" Margin="594,492,17,95" Foreground="White" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="EditButton_Click">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF6EB140" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="NewReservationButton" Content="New Reservation" Margin="594,577,17,10" Foreground="White" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="NewReservationButton_Click">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF6EB140" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="SubmitBtn" Content="Submit" Margin="196,577,415,9" Foreground="#FF72FF00" BorderBrush="#FFCE3636" FontWeight="Bold" Grid.Column="3" Cursor="Hand" Click="SubmitBtn_Click" IsEnabled="False">
+                        <Button.OpacityMask>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF453434" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.OpacityMask>
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="Black" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+            </TabItem>
+
+
+
+
+            <TabItem Header="Universal Search" Padding="15" FontSize="18" Foreground="Red" Background="Black">
+                <Grid x:Name="SearchPage">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="41*"/>
+                        <ColumnDefinition Width="30*"/>
+                        <ColumnDefinition Width="1128*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Button x:Name="SearchIconNew" Content="" HorizontalAlignment="Left" Margin="1011,100,0,0" VerticalAlignment="Top" Height="50" Width="55" BorderBrush="#FFDAD6D6" GotFocus="Button_GotFocus" Foreground="{x:Null}" OpacityMask="Black" Cursor="Hand" Grid.Column="2" Click="SearchIconNew_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/search.png"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="11,319,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="1000" Height="50" Background="#FFD8F3CD" FontWeight="Bold" Grid.Column="2" KeyDown="TextBox_GotFocus_1" GotFocus="SearchTextBox_GotFocus"/>
+                    <DataGrid x:Name="SearchDataGrid" Grid.Column="2" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="78,195,133,29"/>
+                    <Button x:Name="SearchIconNew_Copy" Content="" HorizontalAlignment="Left" Margin="1011,319,0,0" VerticalAlignment="Top" Height="50" Width="55" BorderBrush="#FFDAD6D6" GotFocus="Button_GotFocus" Foreground="{x:Null}" OpacityMask="Black" Cursor="Hand" Grid.Column="2" RenderTransformOrigin="0.1,0.002">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/search.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Label x:Name="SearchLabel" Grid.Column="2" Content="Please Search with Formula " HorizontalAlignment="Left" Margin="51,153,0,0" VerticalAlignment="Top" Width="227" FontSize="18" Foreground="Red"/>
+                    <Label x:Name="SearchLabel2" Grid.Column="2" Content=" ID-First name-last name" HorizontalAlignment="Left" Margin="267,154,0,0" VerticalAlignment="Top" Foreground="#FF4EFF02" Width="205" FontSize="18"/>
+                    <Label x:Name="SearchLabel3" Grid.Column="2" Content="and Press On Enter Or the icon" HorizontalAlignment="Left" Margin="473,155,0,0" VerticalAlignment="Top" Width="266" FontSize="18" Foreground="Red"/>
+
+                </Grid>
+            </TabItem>
+
+
+
+            <TabItem Header="Reservation Adv.view" Padding="15" FontSize="18" Foreground="Red" Background="Black">
+                <DataGrid x:Name="Reservation_data_grid_view" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+            </TabItem>
+
+
+            <TabItem Header="Room availabilty" Padding="15" FontSize="18" Foreground="Red" Background="Black" GotFocus="TabItem_GotFocus">
+                <Grid RenderTransformOrigin="0.48,0.505">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.1*"></RowDefinition>
+                        <RowDefinition Height="0.9*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80*"></ColumnDefinition>
+                        <ColumnDefinition Width="519*"/>
+                        <ColumnDefinition Width="600*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Content="Occupied Rooms" FontSize="30" Background="Black" Foreground="#FFFFFDFD" Cursor="Hand" Grid.ColumnSpan="3" Margin="0,0,599,582" Grid.RowSpan="2" />
+                    <Label Grid.Column="2" Grid.Row="0" Content="Availble Rooms" FontSize="30" Background="Black" Foreground="White" Cursor="Hand" Margin="21,0,-21,582" Grid.RowSpan="2"/>
+                    <DataGrid x:Name="OccupiedRoomListBox" Grid.Column="0" Grid.Row="1"  Foreground="Black" FontSize="18" Grid.ColumnSpan="2" Margin="0,0,33,0" Cursor="Cross" HorizontalGridLinesBrush="#FF43D428" VerticalGridLinesBrush="#FF23CC1A">
+                        <DataGrid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF1EFF95" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DataGrid.Background>
+                    </DataGrid>
+                    <DataGrid x:Name="availableRoomListBox" Grid.Column="2" Grid.Row="1"   FontSize="18" Foreground="Black" Cursor="Cross" HorizontalGridLinesBrush="#FF37DA21" VerticalGridLinesBrush="#FF4ACF1A" Margin="25,0,0,0">
+                        <DataGrid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FF0EFF9F" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DataGrid.Background>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Kitchen" Padding="15" FontSize="18" Foreground="Red" Background="Black" GotFocus="TabItem_GotFocus_1">
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

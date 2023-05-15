@@ -1,0 +1,70 @@
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\HOTEL PROJECT WPF.exe
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\HOTEL PROJECT WPF.deps.json
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\HOTEL PROJECT WPF.runtimeconfig.json
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\HOTEL PROJECT WPF.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\HOTEL PROJECT WPF.pdb
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Azure.Core.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Azure.Identity.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Humanizer.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Data.SqlClient.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Logging.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Options.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Identity.Client.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Microsoft.SqlServer.Server.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\Mono.TextTemplating.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\System.Memory.Data.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\System.Runtime.Caching.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\bin\Release\net7.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.csproj.AssemblyReference.cache
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Bill.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Food Menus.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\frontend.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Kitchen.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\LOGIN.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\App.g.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF_MarkupCompile.cache
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF_MarkupCompile.lref
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Bill.baml
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Food Menus.baml
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\frontend.baml
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\Kitchen.baml
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\LOGIN.baml
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.g.resources
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.AssemblyInfoInputs.cache
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.AssemblyInfo.cs
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.csproj.CoreCompileInputs.cache
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.csproj.CopyComplete
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\refint\HOTEL PROJECT WPF.dll
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.pdb
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\HOTEL PROJECT WPF.genruntimeconfig.cache
+D:\ITI\Entity frameWork\EntityFrameWork\project\HOTEL PROJECT WPF\HOTEL PROJECT WPF\obj\Release\net7.0-windows\ref\HOTEL PROJECT WPF.dll

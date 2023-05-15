@@ -1,0 +1,129 @@
+﻿<Window x:Class="HOTEL_PROJECT_WPF.Food_Menus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HOTEL_PROJECT_WPF"
+        mc:Ignorable="d"
+        Title="Food_Menus" Height="549" Width="921" Icon="/2.jpg" WindowStyle="None" WindowStartupLocation="CenterScreen" Topmost="True" Closed="Window_Closed">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Green"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Window.FocusVisualStyle>
+        <Style/>
+    </Window.FocusVisualStyle>
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF2EFF07" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.9*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"></ColumnDefinition>
+            <ColumnDefinition Width="568*"/>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="276*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Food and Menu" Grid.Row="0" Grid.Column="0" Background="Black" OpacityMask="Black" Foreground="White" FontSize="25" FontWeight="Bold" Grid.ColumnSpan="3" Margin="0,0,0,494" Grid.RowSpan="2"/>
+        <Label Grid.Row="0" Grid.Column="2" Background="Black" Margin="54,0,0,494" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+        <Grid Grid.Row="1" Grid.Column="0" Margin="15,15,15,15" OpacityMask="Black" Grid.ColumnSpan="3">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF41A940" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"></RowDefinition>
+                <RowDefinition Height="0.25*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+                <RowDefinition Height="0.25*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+                <RowDefinition Height="0.1*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Content="Food Selection" Grid.Row="0" Grid.Column="0" Foreground="White" FontWeight="Bold" OpacityMask="Black" FontSize="20"/>
+            <Image Source="3.jpeg" Grid.Column="0" Margin="3,7,35,26" Grid.RowSpan="2" Grid.Row="1" OpacityMask="Black"/>
+            <Image Source="2.jpg" Margin="168,5,29,31" Grid.ColumnSpan="2" Grid.Row="1" RenderTransformOrigin="0.424,0.246" OpacityMask="Black" Grid.RowSpan="2"/>
+            <CheckBox x:Name="breakfast" Content="Breakfast (7$)" Grid.Row="2" Grid.Column="0" OpacityMask="Black" Foreground="White" Margin="0,19,307,34" Grid.RowSpan="2" FontSize="16" Grid.ColumnSpan="2"/>
+            <CheckBox x:Name="lunch" Content="lunch (27$)" Grid.Row="2" OpacityMask="Black" Foreground="White" Grid.ColumnSpan="2" Margin="307,21,0,38" Grid.RowSpan="2" FontSize="16"/>
+            <TextBox x:Name="breakfastNumber"  Grid.Row="3" Grid.Column="0" Margin="5" Text="Quantity ?" GotFocus="TextBox_GotFocus" OpacityMask="Black"/>
+            <TextBox x:Name="lunchNumber"  Grid.Row="3" Grid.Column="1" Margin="5" Text="Quantity ?" GotFocus="TextBox_GotFocus_1" OpacityMask="Black"/>
+            <Image Source="1.jpeg" Grid.Column="0" Grid.Row="4" Margin="-12,8,31,2" OpacityMask="Black"  />
+            <CheckBox x:Name="dinner" Content="Dinner (17$)" Grid.Row="5" Grid.Column="0" OpacityMask="Black" Foreground="White" FontSize="16"/>
+            <TextBox x:Name="dinnnerNumber"  Grid.Row="6" Grid.Column="0" Margin="5" Text="Quantity ?" GotFocus="TextBox_GotFocus_1" OpacityMask="Black"/>
+
+        </Grid>
+
+
+        <Grid Grid.Row="1" Grid.Column="3" Margin="15,15,15,15">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF759860" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Content="Special Needs" Grid.Row="0" Foreground="White" FontSize="20" ></Label>
+
+                <CheckBox x:Name="cleanning" Content="Cleaning" Grid.Row="1" Foreground="White" FontSize="16"></CheckBox>
+                <CheckBox x:Name="towel" Content="Towels" Grid.Row="2" Foreground="White"></CheckBox>
+                <CheckBox x:Name="surprise" Content="Sweatest Surprise" Grid.Row="3" Foreground="White"></CheckBox>
+            </Grid>
+            <Button Content="Next" Margin="15,69,14,102" Grid.Row="1" Grid.Column="0" Foreground="#FF41FF09" BorderBrush="#FF928F8F" FontSize="20" Cursor="Hand" Click="Button_Click">
+                <Button.OpacityMask>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFC8F1AB" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.OpacityMask>
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+    </Grid>
+</Window>
